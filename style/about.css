@@ -1,0 +1,74 @@
+p{
+    text-align: center;
+}
+@font-face{
+    font-family: Headline R;
+    src:url('Headline R.ttf');
+    font-weight: border;
+    
+}
+
+@font-face{
+    font-family: Calibri;
+    src:url('Calibri');
+    font-weight: normal;
+}
+
+.xxx-large{
+    font-family: Headline R;
+    font-size: xxx-large;
+}
+
+body{
+    font-family: Calibri;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; 
+}
+
+.container{
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%, -50%)
+}
+
+.underline-hover li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.underline-hover li a{
+    color: #222;
+    text-decoration: none;
+    position: relative;
+}
+
+.underline-hover li a:before{
+    content: '';
+    background-color: #222;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.underline-hover li a:hover:before{
+    width: 100%;
+}
+
+.container2{
+    left: 25%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%) 
+}
+
+.contents li{
+    list-style: none;
+    margin: 0;
+    font-size: 18px;
+}
